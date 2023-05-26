@@ -1,6 +1,6 @@
 # Quick Start
 
-TODO: Description
+Ecosystem Plugin for ZkSync support in Ape.
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ TODO: Description
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-pip install <PYPI_NAME>
+pip install ape-zksync
 ```
 
 ### via `setuptools`
@@ -21,14 +21,18 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
+git clone https://github.com/ApeWorX/ape-zksync.git
+cd ape-zksync
 python3 setup.py install
 ```
 
 ## Quick Usage
 
-TODO: Describe library overview in code
+Installing this plugin adds support for the ZkSync ecosystem:
+
+```
+ape console --network zksync:goerli 
+```
 
 ## Development
 
